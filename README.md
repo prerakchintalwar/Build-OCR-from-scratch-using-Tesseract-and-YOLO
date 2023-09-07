@@ -47,23 +47,23 @@ on some of the images.
 
 This step involves configuring custom .cfg, obj.data, obj.names, train.txt and test.txt files.
 
-a. Configuring all the needed variables based on class in the config file
+  a. Configuring all the needed variables based on class in the config file
 
-b. Creating obj.names and obj.data files
+  b. Creating obj.names and obj.data files
 
-i. obj.names : Classes to be detected
-* Invoice Number
-* Date
-* Amount
+   i. obj.names : Classes to be detected
+    * Invoice Number
+    * Date
+    * Amount
 
-ii. obj.data:
-* classes = 3
-* train = data/train.txt
-* valid = data/test.txt
-* names = data/obj.names
-* backup = content/backup
+   ii. obj.data:
+    * classes = 3
+    * train = data/train.txt
+    * valid = data/test.txt
+    * names = data/obj.names
+    * backup = content/backup
 
-c. Configuring train.txt and test.txt
+  c. Configuring train.txt and test.txt
 
 6. Download pre-trained weights for the convolutional layers
 
